@@ -1,0 +1,18 @@
+{
+  "welcome": "Welcome",
+  "workspace": "Your workspace",
+  "workspaceDescription": "Organize priorities and make progress, one task at a time.",
+  "search": "Search...",
+  "allTasks": "All tasks",
+  "delete": "Delete",
+  "arabic": "Arabic",
+  "english": "English",
+  "tasks": "Tasks",
+  "addTask": "Add New Task",
+  "title": "Title",
+  "description": "Description",
+  "status": "Status",
+  "dueDate": "Due date",
+  "cancel": "Cancel",
+  "createTask": "Create Task"
+}
