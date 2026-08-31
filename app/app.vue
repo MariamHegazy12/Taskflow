@@ -17,9 +17,6 @@ useHead(() => ({
 </script>
 <template>
   <Html :dir="direction" :lang="locale">
-    <Main>
-
-    </Main>
     <Body>
       <UApp>
       <LayoutNavbar />
