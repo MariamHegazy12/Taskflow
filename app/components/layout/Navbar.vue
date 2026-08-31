@@ -50,8 +50,8 @@ function toggleColorMode() {
           class="flex h-9 w-9 items-center justify-center rounded-lg border border-app-border bg-app-surface text-app-muted transition-all hover:border-indigo-500/30 hover:text-indigo-500"
           @click="toggleColorMode"
         >
-          <Sun v-if="colorMode.value === 'dark'" class="h-4 w-4 text-amber-400" />
-          <Moon v-else class="h-4 w-4 text-indigo-600" />
+          <Sun  class="h-4 w-4 text-amber-400 dark:block hidden " />
+          <Moon class="h-4 w-4 text-indigo-600 dark:hidden" />
         </button>
 
         <!-- Add Task Modal CTA Button -->
