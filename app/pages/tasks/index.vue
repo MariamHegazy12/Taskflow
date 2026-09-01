@@ -102,7 +102,7 @@ async function confirmDeleteTask() {
             <!-- Header: Title & Status -->
             <div class="flex items-start justify-between gap-3">
     
-              <NuxtLinkLocale :to="`/tasks/${task.title.replace(/\s+/g, '-').toLowerCase()}${task.id}`" class="text-base font-bold text-app-text group-hover:text-indigo-500 transition-colors">
+              <NuxtLinkLocale :to="`/tasks/${task.title.replace(/\s+/g, '-').toLowerCase()}/${task.id}`" class="text-base font-bold text-app-text group-hover:text-indigo-500 transition-colors">
                 {{ task.title }}
               </NuxtLinkLocale>
               <span
